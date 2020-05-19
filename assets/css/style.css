@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@600&family=Roboto+Condensed&display=swap:100,200,300,400,500,600,700');
+
+.navbar {
+    background-color: #329EB6;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-brand {
+    color: black;
+    font-size: 30px;
+}
+
+li,a {
+    color: black;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+body {
+    background-color: #b4e9f4;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.name {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div>#intro {
+    font-size: 178%;
+    position: relative;
+    margin-right: 0;
+}
+
+/* ----------------------------------------contact Form */
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #329EB6;
+}
+/* ---------------------------------------------------footer */
+
+footer {
+    background-color: white;
+    min-height: 120px;
+    margin: 0;
+    padding: 20px;
+}
