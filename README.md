@@ -16,39 +16,32 @@ Find a live version <a href="https://techsini.com/multi-mockup/index.php">here</
 This project is intended to create an online presence for myself whilest introducing me as a software developer. It is also intended as an avenue to 
 reach out to other webdevelopers for collaborations and at the same time to sell out my skills to recruiters for a software developer role.
 ### Value to the User
-<ul>
-    <li>To enable user exhibit his work as a software developer</li>
-    <li>To enable other developers find the developer for collaborations</li>
-    <li>to enable recruiters access the developer for interviews</li>
-</ul>
+
+* To enable user exhibit his work as a software developer.
+* To enable other developers find the developer for collaborations.
+* to enable recruiters accessto the developer for interviews.
+
 
 ## Design
+<hr>
 
- #### colour
+#### colour
         
- Colours used for the project include: 2 shades of green, white and blue
-    </li>
-</ul>
-<ul>
-    <li>
-        <h4>Typography</h4> 
-        <p>
-            Roboto condenced is the main font. Dancing script was used to write the title of the name being introduced in the first 
-            section of the website Anton was used for introducing the name of the developer in the first section. the fall back font 
-            for the entire website was Sans Serif.
-        </p>
-    </li>
-</ul>
+* Colours used for the project include: 2 shades of green, white and blue
+        
 
-<ul>
-    <li>
-        <h4>imagery</h4>
-        <p>
+#### Typography
+        
+        Roboto is the main font used for the project. Anton was used for introducing the name of the developer in the first section
+        as well as his title. the fall back font for the entire website was Sans Serif.
+    
+
+
+
+#### Imagery
+        
             The image of the developer can be found in the first section of the website. This is to enable collaborators and potential recruiters
             have a fair idea who they are dealing with and to add up to the visual dynamics of the page.
-        </p>
-    </li>
-</ul>
 
 ## Wireframe
 <hr>
@@ -58,49 +51,48 @@ Figma was used to create the <a href="https://www.figma.com/file/tUdMxotevqwOnKq
 
 ## Features
 <hr>
-The website is divided into 5 parts: The navigation bar is the first part of the website. it features the surname of the developer 
-as the logo for the website. 3 navigation buttons are located on the right side of the page.
 
-The second part introduces the name and role of the developer followed by an image of the 
-developer and a brief introduction.
+* The website is divided into 5 parts: The navigation bar is the first part of the website. it features the surname of the developer 
+  as the logo for the website. 3 navigation buttons are located on the right side of the page.
 
-The third part shows a brief Resume of the developer as well as his skills in relation to web development.
+* The second part introduces the name and role of the developer followed by an image of the 
+  developer and a brief introduction.
 
-The Fourth part is a contact form inviting other developers/recruiters for collaborations/job offers.
+* The third part shows a brief Resume of the developer as well as his skills in relation to web development.
 
-The Fifth and final part of the website is the footer which houses two social media icons which act as links
-to the social media pages of the developer.
+* The Fourth part is a contact form inviting other developers/recruiters for collaborations/job offers.
+
+* The Fifth and final part of the website is the footer which houses two social media icons which act as links
+  to the social media pages of the developer.
 
 ## Technologies used
 <hr>
 
 ### Languages used
-<ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>JavaScript</li>
-</ul>
+
+* HTML5
+* CSS3
+* JavaScript
+
 
 ### Frameworks, Libraries and Programs used
-<ol>
-    <li><a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap4</a></li>
-    <li><a href="https://fontawesome.com/start">Font Awesome</a></li>
-    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
-    <li><a href="https://git-scm.com/">Git</a></li>
-    <li><a href="https://github.com/">GitHub</a></li>
-    <li><a href="https://www.figma.com/files/recent">Figma</a></li>
-</ol>
+
+1. <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap4</a>
+1. <a href="https://fontawesome.com/start">Font Awesome</a>
+1. <a href="https://fonts.google.com/">Google Fonts</a>
+1. <a href="https://git-scm.com/">Git</a></li>
+1. <a href="https://github.com/">GitHub</a></li>
+1. <a href="https://www.figma.com/files/recent">Figma</a>
+
 
 ### Testing
 <hr>
-<ul>
-    <li>W3C Markup Validator and W3C CSS validator Services were used to ensure there were no syntax errors in the project.
-        JavaScript was checked with JS Hint Validator.
-    </li>
-    <li>
-        The responsiveness of the website was tested intermittently with Google Chrome developer tools during the developer process.
-    </li>
-</ul>
+
+*   W3C Markup Validator and W3C CSS validator Services were used to ensure there were no syntax errors in the project.
+    JavaScript was checked with JS Hint Validator.
+*   The responsiveness of the website was tested intermittently with Google Chrome developer tools during the developer process.
+    
+
 
 ### Testing and User Experience
 
