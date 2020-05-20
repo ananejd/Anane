@@ -1,6 +1,13 @@
 # Anane
 ## Introduction
-This is a project undertaken by John Divine Anane, a student of the code institute undertaking the Diploma in full stack web development course. 
+This is user-centric frontend development project undertaken by the developer to create an online presence for himself as his first milestone project with the code institute.
+
+## Demo 
+<hr>
+Find a live version <a href="https://techsini.com/multi-mockup/index.php">here</a>
+
+![readme](https://user-images.githubusercontent.com/60395049/82444613-6860bc80-9a9b-11ea-8817-0d5d8510d255.jpg)
+
 
 ## UX (User Experience)
 <hr>
@@ -16,13 +23,10 @@ reach out to other webdevelopers for collaborations and at the same time to sell
 </ul>
 
 ## Design
-<hr>
-<ul>
-    <li> 
-        <h4> colour</h4>
-        <p>
-            Colours used for the project include: 2 shades of green, white and blue
-        </p>
+
+ #### colour
+        
+ Colours used for the project include: 2 shades of green, white and blue
     </li>
 </ul>
 <ul>
