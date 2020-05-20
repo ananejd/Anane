@@ -1,39 +1,178 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Anane
+## Introduction
+This is a project undertaken by John Divine Anane, a student of the code institute undertaking the Diploma in full stack web development course. 
 
-Welcome USER_NAME,
+## UX (User Experience)
+<hr>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+### Goal of the project
+This project is intended to create an online presence for myself whilest introducing me as a software developer. It is also intended as an avenue to 
+reach out to other webdevelopers for collaborations and at the same time to sell out my skills to recruiters for a software developer role.
+### Value to the User
+<ul>
+    <li>To enable user exhibit his work as a software developer</li>
+    <li>To enable other developers find the developer for collaborations</li>
+    <li>to enable recruiters access the developer for interviews</li>
+</ul>
 
-## Gitpod Reminders
+## Design
+<hr>
+<ul>
+    <li> 
+        <h4> colour</h4>
+        <p>
+            Colours used for the project include: 2 shades of green, white and blue
+        </p>
+    </li>
+</ul>
+<ul>
+    <li>
+        <h4>Typography</h4> 
+        <p>
+            Roboto condenced is the main font. Dancing script was used to write the title of the name being introduced in the first 
+            section of the website Anton was used for introducing the name of the developer in the first section. the fall back font 
+            for the entire website was Sans Serif.
+        </p>
+    </li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<ul>
+    <li>
+        <h4>imagery</h4>
+        <p>
+            The image of the developer can be found in the first section of the website. This is to enable collaborators and potential recruiters
+            have a fair idea who they are dealing with and to add up to the visual dynamics of the page.
+        </p>
+    </li>
+</ul>
 
-`python3 -m http.server`
+## Wireframe
+<hr>
+Figma was used to create the <a href="https://www.figma.com/file/tUdMxotevqwOnKqhA3VbQH/MSP-1?node-id=7%3A2">wireframe</a> for this project with inspiration drawn from 
+<a href="https://www.awwwards.com/">Awward's website</a>.
+<br>
 
-A blue button should appear to click: *Make Public*,
+## Features
+<hr>
+The website is divided into 5 parts: The navigation bar is the first part of the website. it features the surname of the developer 
+as the logo for the website. 3 navigation buttons are located on the right side of the page.
 
-Another blue button should appear to click: *Open Browser*.
+The second part introduces the name and role of the developer followed by an image of the 
+developer and a brief introduction.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The third part shows a brief Resume of the developer as well as his skills in relation to web development.
 
-A blue button should appear to click: *Make Public*,
+The Fourth part is a contact form inviting other developers/recruiters for collaborations/job offers.
 
-Another blue button should appear to click: *Open Browser*.
+The Fifth and final part of the website is the footer which houses two social media icons which act as links
+to the social media pages of the developer.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Technologies used
+<hr>
 
-## Updates Since The Instructional Video
+### Languages used
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+</ul>
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+### Frameworks, Libraries and Programs used
+<ol>
+    <li><a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/">Bootstrap4</a></li>
+    <li><a href="https://fontawesome.com/start">Font Awesome</a></li>
+    <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+    <li><a href="https://git-scm.com/">Git</a></li>
+    <li><a href="https://github.com/">GitHub</a></li>
+    <li><a href="https://www.figma.com/files/recent">Figma</a></li>
+</ol>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Testing
+<hr>
+<ul>
+    <li>W3C Markup Validator and W3C CSS validator Services were used to ensure there were no syntax errors in the project.
+        JavaScript was checked with JS Hint Validator.
+    </li>
+    <li>
+        The responsiveness of the website was tested intermittently with Google Chrome developer tools during the developer process.
+    </li>
+</ul>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Testing and User Experience
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. Users should be able to navigate to all sections of the page using the navigation menus. A click on the logo (Anane)
+    should revert the user to the home page.
+2. Users should be able to use the form to contact the developer.
+3. Users should be able to link up with the developer using the social media icons located in the footer.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Anticipated future User Experience 
+1. The user will be able to download a PDF copy of the developer's resume in further developments.
+2. The user should be able to view the various projects the developer has undertaken in future developments.
+3. the user should be able to access a blog on the developers experiences/perspective in future updates.
 
---------
+### Bugs
+<hr>
 
-Happy coding!
+#### Solved Bugs
+
+1. <strong>Problem</strong>The footer was failing to stretch fully across the page in smaller screens.<br>
+    <strong>Solution:</strong> Z-index property along side the right and left rule were used to solve the problem.
+
+
+1. <strong>Problem</strong> Navigations menus in the header jammed up on mobile versions of the website <br>
+    <strong>Soution:</strong> This was fixed with media queries and Javascript codes as well as bootstrap framework.
+
+2. <strong>Problem:</strong> The introductory passage located by the profile image jammed up with the image on medium sized screen 
+   and less. <br>
+   <strong>Solution:</strong> The above described issue was solved by making the image container fluid.
+
+3. <strong>Problem:</strong> the progress bar and lables in the skill section were not aligned.<br> 
+    <strong>Solution:</strong> the progress bar and lables were brought to alignment by increasing the column of 
+    the progress bars while decreasing the column of the the labels. the progress bars were then brought to 
+    alignment using the CSS padding-top rule.
+
+### Deployment
+<hr>
+
+#### GitHub 
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+### Credits
+<hr>
+
+#### code
+The code for the website were largely written by the developer (John Divine Anane) using the Bootstrap4 frame-work to a large extent.
+Codes from <a href="https://stackoverflow.com/">Stack Overflow</a> were used to debug navigation bar unintended appearance. 
+
+JavaScript codes were introduced from <a href="https://stackoverflow.com/">Stack Overflow</a> with the help of my mentor, Oluwafemi Omedale 
+to solve mobile responsive navigation problems subsequentely resulting in the hamburger button seen on mobile view of the website. 
+
+Dubuging of the image and text jam up of the first section of the website noticed in medium sized screen views as well as 
+navigation bar menu issues in mobile devices was resolved with the help of Andrew Sokolic, a software developer.
+
+#### Content
+
+All content was written by the developer.
+
+Inspiration for the ReadMe.md content was drawn from the Code institutes github page and literature from 
+<a href="https://www.makeareadme.com/">link</a>.
+
+#### media
+
+All images were created by the developer.
+
+### Acknowledgements
+
+1. I acknowledge my Mentor, Oluwafemi Omadale for his helpful feedback and support
+
+2. Tutors and Slack community of the Code institute
+
+3. Andrew Sokolic, a friend for his advice and tutelege.

@@ -1,31 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@600&family=Roboto+Condensed&display=swap:100,200,300,400,500,600,700');
 
+/* Navigation bar */
 .navbar {
     background-color: #329EB6;
     position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
-}
+} 
 
 .navbar-brand {
     color: black;
     font-size: 30px;
 }
 
+.icon-align {
+    padding-top: 8px;
+}
+
 li,a {
     color: black;
+}
+/* Mobile navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  display: none;
+  right: 0;
+  left: 0;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 .jumbotron {
     background-color: transparent;
 }
-
+.profile-image {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+/* Body */
 body {
     background-color: #b4e9f4;
     font-family: Roboto Condensed;
     font-size: 20px;
     margin: 0 auto;
+}
+
+body #resume {
+    padding-top: 50px;
+}
+
+body #resume hr{
+    margin-bottom: 50px;
+    border: #329EB6 solid 1px;
+}
+
+body #contact hr{
+    margin-bottom: 50px;
+    border: #329EB6 solid 1px;
+}
+
+body #skills .skill-progress{
+    padding-top: 8px;
 }
 
 .name {
@@ -56,7 +123,7 @@ div>#intro {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 60%;
+    max-width: 50%;
 }
 
 button[type="submit"] {
@@ -68,8 +135,32 @@ button[type="submit"] {
 /* ---------------------------------------------------footer */
 
 footer {
-    background-color: white;
+    background-color: #329EB6;
     min-height: 120px;
-    margin: 0;
     padding: 20px;
+    position: relative;
+}
+
+.social-icons {
+    font-size: 30px;
+    text-align: center;
+}
+
+.downlaod-icon {
+    font-size: 30px;
+    text-align: center;
+}
+
+#mobile-nav-burger{
+    display: none;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    #desktop-nav{
+        display: none;
+    }
+    #mobile-nav, #mobile-nav-burger {
+        display: block;
+    }
 }
