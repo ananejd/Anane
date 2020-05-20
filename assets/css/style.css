@@ -4,6 +4,7 @@
 .navbar {
     background-color: #329EB6;
     position: fixed;
+    font-size: 20px;
     right: 0;
     left: 0;
     z-index: 1030;
@@ -61,55 +62,41 @@ li,a {
   color: white;
 }
 
-.jumbotron {
-    background-color: transparent;
-}
 .profile-image {
     height: 400px;
     width: 400px;
     object-fit: cover;
 }
 /* Body */
+
 body {
     background-color: #b4e9f4;
-    font-family: Roboto Condensed;
-    font-size: 20px;
     margin: 0 auto;
+    font-family: roboto;
 }
 
-body #resume {
+#resume {
     padding-top: 50px;
 }
 
-body #resume hr{
+hr{
     margin-bottom: 50px;
     border: #329EB6 solid 1px;
 }
 
-body #contact hr{
-    margin-bottom: 50px;
-    border: #329EB6 solid 1px;
-}
-
-body #skills .skill-progress{
+.skill-progress{
     padding-top: 8px;
 }
 
-.name {
+
+.custom-title {
     font-family: "Anton", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    margin-top: 50px;
     text-align: center;
 }
 
-.title {
-    font-family: "Dancing Script", sans-serif;
-    font-weight: 200;
-    font-size: 36px;
-    margin-top: 0;
-    margin-bottom: 50px;
-    text-align: center;
+.title-wrapper {
+    padding-top: 120px;
+    padding-bottom: 50px;
 }
 
 div>#intro {
