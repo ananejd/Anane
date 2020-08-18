@@ -78,6 +78,10 @@ body {
     padding-top: 80px;
 }
 
+#events{
+    padding-top: 80px;
+}
+
 hr{
     margin-bottom: 50px;
     border: #329EB6 solid 1px;
@@ -106,6 +110,10 @@ div>#intro {
     font-size: 178%;
     position: relative;
     margin-right: 0;
+}
+
+div#map {
+    min-height: 360px;
 }
 
 /* ----------------------------------------contact Form */

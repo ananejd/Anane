@@ -223,13 +223,19 @@
 
  <!-- interest -->
 <section id="events">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="text-center">my coding/tech events and meet ups</h2>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <br>
+                            <h2 class="text-center">Events and meet ups</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="map"></div>
                 </div>
             </div>
-            <div id="map"></div>
         </div>
     </section>
 <!--Contact -->
@@ -278,6 +284,19 @@
         </div>
     </div>
 </footer>
+    <script>
+        function initMap(){
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
+                }
+            });
+        }
+    </script>
+    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <script defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCya7kySyuRBTMtvy4x3FNZmKXjgXEV7t8&callback=initMap"></script>
     <script src= "assets/js/sendEmail.js"></script>
     <script src="https://kit.fontawesome.com/44ed0caeaf.js"></script>
     <script src="assets/js/main.js"></script>
