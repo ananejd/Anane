@@ -11,7 +11,7 @@
 } 
 
 .navbar-brand {
-    color: black;
+    color: rgb(17, 90, 95);
     font-size: 30px;
 }
 
@@ -70,13 +70,12 @@ li,a {
 /* Body */
 
 body {
-    background-color: #b4e9f4;
     margin: 0 auto;
     font-family: roboto;
 }
 
 #resume {
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 hr{
@@ -99,6 +98,10 @@ hr{
     padding-bottom: 50px;
 }
 
+#title{
+    background-color: #329EB6
+}
+
 div>#intro {
     font-size: 178%;
     position: relative;
@@ -119,6 +122,12 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #329EB6;
 }
+
+#contact{
+    background-color: #329EB6;
+    padding-bottom: 50px;
+}
+
 /* ---------------------------------------------------footer */
 
 footer {
