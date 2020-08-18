@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ananejd/Anane)
+
 # Anane
 ## Introduction
 This is user-centric frontend development project undertaken by the developer to create an online presence for himself as his first milestone project with the code institute.

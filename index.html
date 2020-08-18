@@ -19,7 +19,7 @@
     <script type="text/javascript">
         (function(){
       emailjs.init("user_lTf5dMeAuuISosSujaKLO");
-      emailjs.send("gmail", "ananejd", {name: "John", notes: "the project that i want is..."}, "user_lTf5dMeAuuISosSujaKLO");
+      
     })();
     </script>
 
@@ -228,12 +228,12 @@
             <div class="row">
                 <div class="col">
                     <h2 class="text-center">Contact</h2>
-                    <h5 class="text-center">Do you have a job/project for me? Get in touch.</h5>
+                    <h5 class="text-center">Lets discuss a project. Get in touch.</h5>
                 </div>
             </div>
         </div>
         <div class="center-form">
-            <form>
+            <form onsubmit="return sendMail(this);">
                 <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
                 <input type="text" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
                 <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
@@ -267,6 +267,7 @@
         </div>
     </div>
 </footer>
+    <script src= "assets/js/sendEmail.js"></script>
     <script src="https://kit.fontawesome.com/44ed0caeaf.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
