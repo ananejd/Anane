@@ -1,14 +1,15 @@
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/ananejd/Anane)
 
 # Anane
 ## Introduction
-This is user-centric frontend development project undertaken by the developer to create an online presence for himself as his first milestone project with the code institute.
+This project seeks to exhibit the developers skills in relation to adding interactivity to websites as a second milestone project for the code institute.
+The updates to this site which hitherto was a static website include the Google map functionality as well as connecting the contact form to a working email thereby 
+making it possible for the developer to be contacted.
 
 ## Demo 
 <hr>
-Find a live version <a href="https://techsini.com/multi-mockup/index.php">here</a>
+Find a live version <a href="http://ami.responsivedesign.is/?url=https://ananejd.github.io/Anane/">here</a>
 
-![readme](https://user-images.githubusercontent.com/60395049/82444613-6860bc80-9a9b-11ea-8817-0d5d8510d255.jpg)
+![](assets/images/readme.jpg)
 
 
 ## UX (User Experience)
@@ -16,12 +17,14 @@ Find a live version <a href="https://techsini.com/multi-mockup/index.php">here</
 
 ### Goal of the project
 This project is intended to create an online presence for myself whilest introducing me as a software developer. It is also intended as an avenue to 
-reach out to other webdevelopers for collaborations and at the same time to sell out my skills to recruiters for a software developer role.
+reach out to other webdevelopers for collaborations and at the same time to sell out my skills to recruiters for a software developer role. The updates seeks 
+to incooporate more interactivity to the website.
+
 ### Value to the User
 
 * To enable user exhibit his work as a software developer.
 * To enable other developers find the developer for collaborations.
-* to enable recruiters accessto the developer for interviews.
+* to enable recruiters access to the developer for interviews.
 
 
 ## Design
@@ -29,7 +32,8 @@ reach out to other webdevelopers for collaborations and at the same time to sell
 
 #### colour
         
-* Colours used for the project include: 2 shades of green, white and blue
+* Colours used for the project include: a shades of green, white and blue; green is the developers favorite colour and the text have been made black in line with default colour for text.
+bootstraps default blue colour has been employed as well.
         
 
 #### Typography
@@ -54,7 +58,7 @@ Figma was used to create the <a href="https://www.figma.com/file/tUdMxotevqwOnKq
 ## Features
 <hr>
 
-* The website is divided into 5 parts: The navigation bar is the first part of the website. it features the surname of the developer 
+* The website is divided into 6 parts: The navigation bar is the first part of the website. it features the surname of the developer 
   as the logo for the website. 3 navigation buttons are located on the right side of the page.
 
 * The second part introduces the name and role of the developer followed by an image of the 
@@ -62,9 +66,11 @@ Figma was used to create the <a href="https://www.figma.com/file/tUdMxotevqwOnKq
 
 * The third part shows a brief Resume of the developer as well as his skills in relation to web development.
 
-* The Fourth part is a contact form inviting other developers/recruiters for collaborations/job offers.
+* the fouth part incoporates the google map showing places the developer parttook in code events.
 
-* The Fifth and final part of the website is the footer which houses two social media icons which act as links
+* The Fifth part is a contact form inviting other developers/recruiters for collaborations/job offers.
+
+* The sixth and final part of the website is the footer which houses two social media icons which act as links
   to the social media pages of the developer.
 
 ## Technologies used
@@ -75,6 +81,7 @@ Figma was used to create the <a href="https://www.figma.com/file/tUdMxotevqwOnKq
 * HTML5
 * CSS3
 * JavaScript
+
 
 
 ### Frameworks, Libraries and Programs used
@@ -129,6 +136,8 @@ Figma was used to create the <a href="https://www.figma.com/file/tUdMxotevqwOnKq
     the progress bars while decreasing the column of the the labels. the progress bars were then brought to 
     alignment using the CSS padding-top rule.
 
+4. deploying google map api had difficulties in relation to key and billings, same was solved by providing credit card details on googles cloud website.
+
 ### Deployment
 <hr>
 
@@ -155,6 +164,8 @@ to solve mobile responsive navigation problems subsequentely resulting in the ha
 
 Dubuging of the image and text jam up of the first section of the website noticed in medium sized screen views as well as 
 navigation bar menu issues in mobile devices was resolved with the help of Andrew Sokolic, a software developer.
+
+Inspiration for the map functionality and making the contact form functional were derived from Mutt Rudge's lecture on the code institutes LMS.
 
 #### Content
 
