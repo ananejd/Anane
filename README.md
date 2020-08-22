@@ -92,6 +92,8 @@ Figma was used to create the <a href="https://www.figma.com/file/tUdMxotevqwOnKq
 1. <a href="https://git-scm.com/">Git</a></li>
 1. <a href="https://github.com/">GitHub</a></li>
 1. <a href="https://www.figma.com/files/recent">Figma</a>
+1. <a href="https://developers.google.com/maps/documentation/javascript/overview">Google Map API</a>
+1. <a href="https://www.emailjs.com">EmailJs</a>
 
 
 ### Testing
